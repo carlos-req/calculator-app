@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator App</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  <div id="container" class="container">
+    <div class ="toggle">
+      <input type="checkbox" id="checkbox" class="checkbox">
+      <label for ="checkbox" class="label">
+        <img src="/images/sun.svg" alt="sun">
+        <img src="/images/moon.svg" alt="moon">
+        <div class ="ball"></div>
+      </label>
+    </div>
+    <div class="display-area">
+      <p>1200.00</p>
+    </div>
+    <div class ="buttons">
+      <button class="calc-buttons extras">C</button>
+      <button class="calc-buttons extras"><img class ="light-button-extras" src="./images/neg-pos.svg"></button>
+      <button class="calc-buttons extras">%</button>
+      <button class="calc-buttons operators">&#247</button>
+      <button class="calc-buttons numbers">7</button>
+      <button class="calc-buttons numbers">8</button>
+      <button class="calc-buttons numbers">9</button>
+      <button class="calc-buttons operators">&times;</button>
+      <button class="calc-buttons numbers">4</button>
+      <button class="calc-buttons numbers">5</button>
+      <button class="calc-buttons numbers">6</button>
+      <button class="calc-buttons operators">-</button>
+      <button class="calc-buttons numbers">1</button>
+      <button class="calc-buttons numbers">2</button>
+      <button class="calc-buttons numbers">3</button>
+      <button class="calc-buttons operators">+</button>
+      <button class="calc-buttons numbers">.</button>
+      <button class="calc-buttons numbers">0</button>
+      <button class="calc-buttons delete"><img class ="light-button-number" src="./images/delete.svg"><img class ="dark-button-number" src="./images/delete-black.svg"></button>
+      <button class="calc-buttons operators">=</button>
+    </div>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>
